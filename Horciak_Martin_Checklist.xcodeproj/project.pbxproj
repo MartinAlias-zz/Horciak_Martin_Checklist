@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BB8A2EB21908D2000919671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8A2EA21908D2000919671 /* AppDelegate.swift */; };
+		3BB8A2ED21908D2000919671 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8A2EC21908D2000919671 /* ViewController.swift */; };
+		3BB8A2F021908D2000919671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB8A2EE21908D2000919671 /* Main.storyboard */; };
+		3BB8A2F221908D2100919671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB8A2F121908D2100919671 /* Assets.xcassets */; };
+		3BB8A2F521908D2100919671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB8A2F321908D2100919671 /* LaunchScreen.storyboard */; };
+		3BB8A30021908D2100919671 /* Horciak_Martin_ChecklistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8A2FF21908D2100919671 /* Horciak_Martin_ChecklistTests.swift */; };
+		3BB8A30B21908D2100919671 /* Horciak_Martin_ChecklistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8A30A21908D2100919671 /* Horciak_Martin_ChecklistUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BB8A2FC21908D2100919671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB8A2DF21908D2000919671 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BB8A2E621908D2000919671;
+			remoteInfo = Horciak_Martin_Checklist;
+		};
+		3BB8A30721908D2100919671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB8A2DF21908D2000919671 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BB8A2E621908D2000919671;
+			remoteInfo = Horciak_Martin_Checklist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BB8A2E721908D2000919671 /* Horciak_Martin_Checklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horciak_Martin_Checklist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB8A2EA21908D2000919671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BB8A2EC21908D2000919671 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BB8A2EF21908D2000919671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BB8A2F121908D2100919671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BB8A2F421908D2100919671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BB8A2F621908D2100919671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB8A2FB21908D2100919671 /* Horciak_Martin_ChecklistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Horciak_Martin_ChecklistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB8A2FF21908D2100919671 /* Horciak_Martin_ChecklistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horciak_Martin_ChecklistTests.swift; sourceTree = "<group>"; };
+		3BB8A30121908D2100919671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB8A30621908D2100919671 /* Horciak_Martin_ChecklistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Horciak_Martin_ChecklistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB8A30A21908D2100919671 /* Horciak_Martin_ChecklistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horciak_Martin_ChecklistUITests.swift; sourceTree = "<group>"; };
+		3BB8A30C21908D2100919671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BB8A2E421908D2000919671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB8A2F821908D2100919671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB8A30321908D2100919671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BB8A2DE21908D2000919671 = {
+			isa = PBXGroup;
+			children = (
+				3BB8A2E921908D2000919671 /* Horciak_Martin_Checklist */,
+				3BB8A2FE21908D2100919671 /* Horciak_Martin_ChecklistTests */,
+				3BB8A30921908D2100919671 /* Horciak_Martin_ChecklistUITests */,
+				3BB8A2E821908D2000919671 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BB8A2E821908D2000919671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BB8A2E721908D2000919671 /* Horciak_Martin_Checklist.app */,
+				3BB8A2FB21908D2100919671 /* Horciak_Martin_ChecklistTests.xctest */,
+				3BB8A30621908D2100919671 /* Horciak_Martin_ChecklistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BB8A2E921908D2000919671 /* Horciak_Martin_Checklist */ = {
+			isa = PBXGroup;
+			children = (
+				3BB8A2EA21908D2000919671 /* AppDelegate.swift */,
+				3BB8A2EC21908D2000919671 /* ViewController.swift */,
+				3BB8A2EE21908D2000919671 /* Main.storyboard */,
+				3BB8A2F121908D2100919671 /* Assets.xcassets */,
+				3BB8A2F321908D2100919671 /* LaunchScreen.storyboard */,
+				3BB8A2F621908D2100919671 /* Info.plist */,
+			);
+			path = Horciak_Martin_Checklist;
+			sourceTree = "<group>";
+		};
+		3BB8A2FE21908D2100919671 /* Horciak_Martin_ChecklistTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BB8A2FF21908D2100919671 /* Horciak_Martin_ChecklistTests.swift */,
+				3BB8A30121908D2100919671 /* Info.plist */,
+			);
+			path = Horciak_Martin_ChecklistTests;
+			sourceTree = "<group>";
+		};
+		3BB8A30921908D2100919671 /* Horciak_Martin_ChecklistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BB8A30A21908D2100919671 /* Horciak_Martin_ChecklistUITests.swift */,
+				3BB8A30C21908D2100919671 /* Info.plist */,
+			);
+			path = Horciak_Martin_ChecklistUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BB8A2E621908D2000919671 /* Horciak_Martin_Checklist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB8A30F21908D2100919671 /* Build configuration list for PBXNativeTarget "Horciak_Martin_Checklist" */;
+			buildPhases = (
+				3BB8A2E321908D2000919671 /* Sources */,
+				3BB8A2E421908D2000919671 /* Frameworks */,
+				3BB8A2E521908D2000919671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Horciak_Martin_Checklist;
+			productName = Horciak_Martin_Checklist;
+			productReference = 3BB8A2E721908D2000919671 /* Horciak_Martin_Checklist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BB8A2FA21908D2100919671 /* Horciak_Martin_ChecklistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB8A31221908D2100919671 /* Build configuration list for PBXNativeTarget "Horciak_Martin_ChecklistTests" */;
+			buildPhases = (
+				3BB8A2F721908D2100919671 /* Sources */,
+				3BB8A2F821908D2100919671 /* Frameworks */,
+				3BB8A2F921908D2100919671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BB8A2FD21908D2100919671 /* PBXTargetDependency */,
+			);
+			name = Horciak_Martin_ChecklistTests;
+			productName = Horciak_Martin_ChecklistTests;
+			productReference = 3BB8A2FB21908D2100919671 /* Horciak_Martin_ChecklistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BB8A30521908D2100919671 /* Horciak_Martin_ChecklistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB8A31521908D2100919671 /* Build configuration list for PBXNativeTarget "Horciak_Martin_ChecklistUITests" */;
+			buildPhases = (
+				3BB8A30221908D2100919671 /* Sources */,
+				3BB8A30321908D2100919671 /* Frameworks */,
+				3BB8A30421908D2100919671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BB8A30821908D2100919671 /* PBXTargetDependency */,
+			);
+			name = Horciak_Martin_ChecklistUITests;
+			productName = Horciak_Martin_ChecklistUITests;
+			productReference = 3BB8A30621908D2100919671 /* Horciak_Martin_ChecklistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BB8A2DF21908D2000919671 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Martin Horciak";
+				TargetAttributes = {
+					3BB8A2E621908D2000919671 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					3BB8A2FA21908D2100919671 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3BB8A2E621908D2000919671;
+					};
+					3BB8A30521908D2100919671 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3BB8A2E621908D2000919671;
+					};
+				};
+			};
+			buildConfigurationList = 3BB8A2E221908D2000919671 /* Build configuration list for PBXProject "Horciak_Martin_Checklist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BB8A2DE21908D2000919671;
+			productRefGroup = 3BB8A2E821908D2000919671 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BB8A2E621908D2000919671 /* Horciak_Martin_Checklist */,
+				3BB8A2FA21908D2100919671 /* Horciak_Martin_ChecklistTests */,
+				3BB8A30521908D2100919671 /* Horciak_Martin_ChecklistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BB8A2E521908D2000919671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB8A2F521908D2100919671 /* LaunchScreen.storyboard in Resources */,
+				3BB8A2F221908D2100919671 /* Assets.xcassets in Resources */,
+				3BB8A2F021908D2000919671 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB8A2F921908D2100919671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB8A30421908D2100919671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BB8A2E321908D2000919671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB8A2ED21908D2000919671 /* ViewController.swift in Sources */,
+				3BB8A2EB21908D2000919671 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB8A2F721908D2100919671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB8A30021908D2100919671 /* Horciak_Martin_ChecklistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB8A30221908D2100919671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB8A30B21908D2100919671 /* Horciak_Martin_ChecklistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BB8A2FD21908D2100919671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BB8A2E621908D2000919671 /* Horciak_Martin_Checklist */;
+			targetProxy = 3BB8A2FC21908D2100919671 /* PBXContainerItemProxy */;
+		};
+		3BB8A30821908D2100919671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BB8A2E621908D2000919671 /* Horciak_Martin_Checklist */;
+			targetProxy = 3BB8A30721908D2100919671 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BB8A2EE21908D2000919671 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB8A2EF21908D2000919671 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BB8A2F321908D2100919671 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB8A2F421908D2100919671 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BB8A30D21908D2100919671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BB8A30E21908D2100919671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BB8A31021908D2100919671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6HY72467J;
+				INFOPLIST_FILE = Horciak_Martin_Checklist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Horciak.Horciak-Martin-Checklist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BB8A31121908D2100919671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6HY72467J;
+				INFOPLIST_FILE = Horciak_Martin_Checklist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Horciak.Horciak-Martin-Checklist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BB8A31321908D2100919671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6HY72467J;
+				INFOPLIST_FILE = Horciak_Martin_ChecklistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Horciak.Horciak-Martin-ChecklistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horciak_Martin_Checklist.app/Horciak_Martin_Checklist";
+			};
+			name = Debug;
+		};
+		3BB8A31421908D2100919671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6HY72467J;
+				INFOPLIST_FILE = Horciak_Martin_ChecklistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Horciak.Horciak-Martin-ChecklistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horciak_Martin_Checklist.app/Horciak_Martin_Checklist";
+			};
+			name = Release;
+		};
+		3BB8A31621908D2100919671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6HY72467J;
+				INFOPLIST_FILE = Horciak_Martin_ChecklistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Horciak.Horciak-Martin-ChecklistUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Horciak_Martin_Checklist;
+			};
+			name = Debug;
+		};
+		3BB8A31721908D2100919671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6HY72467J;
+				INFOPLIST_FILE = Horciak_Martin_ChecklistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Horciak.Horciak-Martin-ChecklistUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Horciak_Martin_Checklist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BB8A2E221908D2000919671 /* Build configuration list for PBXProject "Horciak_Martin_Checklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB8A30D21908D2100919671 /* Debug */,
+				3BB8A30E21908D2100919671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB8A30F21908D2100919671 /* Build configuration list for PBXNativeTarget "Horciak_Martin_Checklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB8A31021908D2100919671 /* Debug */,
+				3BB8A31121908D2100919671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB8A31221908D2100919671 /* Build configuration list for PBXNativeTarget "Horciak_Martin_ChecklistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB8A31321908D2100919671 /* Debug */,
+				3BB8A31421908D2100919671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB8A31521908D2100919671 /* Build configuration list for PBXNativeTarget "Horciak_Martin_ChecklistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB8A31621908D2100919671 /* Debug */,
+				3BB8A31721908D2100919671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BB8A2DF21908D2000919671 /* Project object */;
+}
